@@ -371,18 +371,92 @@ public class Main {
         // Opgave23
 
         // Opgave24
+        /*
+        int[] scores = {85,92,78,88,95,73,90};
+        int max = scores[0];
+        int min = scores[0];
+        int sum = 0;
+        int count = 0;
 
+        for (int i = 1; i < scores.length; i++){
+                sum += scores[i];
+            if (scores[i] > max) {
+                max = scores[i];
+            }
+            if (scores[i] < min) {
+                min = scores[i];
+            }
+            if (scores[i] > 80){
+                count++;
+            }
+        }
 
+        double average = (double) sum / scores.length;
 
-
+        System.out.println("Average: " + average);
+        System.out.println("Max: " + max);
+        System.out.println("Max: " + min);
+        System.out.println("Numbers over 80: " + count);
+        */
         // Opgave25
+        /*
+        int[] temperature = {18,22,20,25,19,21,23};
+        int varm = temperature[0];
+        int clod = temperature[0];
+        int sum = 0;
+        int count = 0;
 
+        for (int i = 1; i < temperature.length; i++){
+                sum += temperature[i];
+            if (temperature[i] > varm) {
+                varm = temperature[i];
+            }
+            if (temperature[i] < clod) {
+                clod = temperature[i];
+            }
+            if (temperature[i] > 20){
+                count++;
+            }
+        }
+
+        double average = (double) sum / temperature.length;
+
+        System.out.println("Average: " + average);
+        System.out.println("Varmste: " + varm);
+        System.out.println("Koldste: " + clod);
+        System.out.println("Dage over 20 grader: " + count);
+        */
         // Opgave26
 
         // Opgave27
+        /*
+        double[] prices = {299.0,149.0,899.0,49.0};
+        double totalPrice = 0;
 
+        for (double price : prices){
+            totalPrice += price;
+        }
+
+        System.out.println("Total price: " + totalPrice + " kr");
+        */
         // Opgave28
+        /*
+        String[] students = {"Emma","Liam","Olivia","Noah","Ava"};
+        int count = 0;
+        String longest = students[0];
 
+        for (String student : students){
+            System.out.println("Welcome " + student + "!");
+            if (student.length() == 4){
+                count++;
+            }
+            if (student.length() > longest.length()){
+                longest = student;
+            }
+        }
+        System.out.println("4 letter names count: " + count);
+        System.out.println("Longest name: " + longest);
+        */
         // Opgave29
 
 
