@@ -311,9 +311,51 @@ public class Main {
         System.out.println("Total price: " + finalprice);
         */
         // Opgave14
+        /*
+        String item = "coffee";
+        String size = "large";
+        int quantity = 2;
+        double basePrice = 0;
+        double sizeMultiplier = 1;
 
+        switch (item){
+            case "coffee":
+                basePrice = 25;
+                break;
+            case "tea":
+                basePrice = 20;
+                break;
+            case "sandwich":
+                basePrice = 45;
+                break;
+            case "cake":
+                basePrice = 35;
+                break;
+            default:
+                System.out.println("Invalid");
+        }
 
+        if (item.equals("coffee")||item.equals("tea")) {
+            switch (size) {
+                case "small":
+                    sizeMultiplier = 1;
+                    break;
+                case "medium":
+                    sizeMultiplier = 1.2;
+                    break;
+                case "large":
+                    sizeMultiplier = 1.5;
+                    break;
+                default:
+                    System.out.println("Invalid");
+            }
+        }
 
+        double unitPrice = basePrice * sizeMultiplier;
+        double totalPrice = unitPrice * quantity;
+
+        System.out.println("Total price " + totalPrice + " kr for " + quantity + " " + size + " size " + item);
+        */
         // Opgave15
         /*
         double savings = 0;
@@ -342,6 +384,8 @@ public class Main {
         System.out.println("Det tager " + month + " månder: " + debt + " gæld tilbage");
         */
         // Opgave17
+
+
 
         // Opgave18
 
