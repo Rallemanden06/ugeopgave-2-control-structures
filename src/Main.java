@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -384,13 +386,56 @@ public class Main {
         System.out.println("Det tager " + month + " månder: " + debt + " gæld tilbage");
         */
         // Opgave17
+        /*
+        int celsius = 0;
 
-
-
+        System.out.println("Celsius | Fahrenheit");
+        while (celsius <= 100){
+            double fahrenheit = celsius * 9/5 + 32;
+            System.out.println(celsius + "C | " + fahrenheit + "F");
+            celsius += 10;
+        }
+        */
         // Opgave18
+        /*
+        double savings = 10000.0;
+        double rate = 0.05;
+        double target = 20000.0;
+        int years = 0;
 
+        while (savings <= target){
+            savings = savings * (1 + rate);
+            years++;
+            System.out.println("Year: " + years + ": " + savings + "kr");
+        }
+
+        System.out.println("Goal of target is hit in " + years + " years");
+        */
         // Opgave19
+        /*
+        Scanner input = new Scanner(System.in);
+        String correctPassword = "secret123";
+        int maxAttempts = 3;
+        int attempts = 0;
+        boolean success = false;
 
+        while (attempts < maxAttempts && !success) {
+            System.out.println("Indtast password: ");
+            String code = input.nextLine();
+            attempts++;
+
+            if (code.equals(correctPassword)) {
+                success = true;
+                System.out.println("Access grandted");
+            } else {
+                System.out.println("Access denied");
+                System.out.println("Forsøg brugt: " + attempts + "/" + maxAttempts);
+            }
+        }
+        if (!success) {
+            System.out.println("Account locked");
+        }
+        */
         // Opgave20
         /*
         int saving = 0;
@@ -411,9 +456,36 @@ public class Main {
         }
         */
         // Opgave22
-
+        /*
+        for (int i = 0; i < 30 ;i++){
+            if (i % 3 == 0 && i % 5 == 0){
+                System.out.println("Fizzbuzz");
+            } else if (i % 5 == 0) {
+                System.out.println("Buzz");
+            } else if (i % 3 == 0) {
+                System.out.println("Fizz");
+            } else {
+                System.out.println(i);
+            }
+        }
+        */
         // Opgave23
+        /*
+        int number = 29;
+        boolean isPrime = true;
 
+        for (int i = 2; i < 29; i++){
+            if (number % i == 0){
+                isPrime = false;
+                break;
+            }
+        }
+        if (isPrime){
+            System.out.println(number + " is prime");
+        } else {
+            System.out.println(number + " is not prime");
+        }
+        */
         // Opgave24
         /*
         int[] scores = {85,92,78,88,95,73,90};
@@ -471,6 +543,8 @@ public class Main {
         System.out.println("Dage over 20 grader: " + count);
         */
         // Opgave26
+
+
 
         // Opgave27
         /*
