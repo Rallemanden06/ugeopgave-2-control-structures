@@ -543,9 +543,31 @@ public class Main {
         System.out.println("Dage over 20 grader: " + count);
         */
         // Opgave26
+        /*
+        int[] scores = {1200,1500,900,2100,1800,1300,2500};
+        int max = scores[0];
+        int sum = 0;
+        int count = 0;
+        int bestday = 0;
 
+        for (int i = 1; i < scores.length; i++){
+            sum += scores[i];
+            if (scores[i] > max) {
+                max = scores[i];
+                bestday = i;
+            }
+            if (scores[i] > 1500){
+                count++;
+            }
+        }
 
+        double average = (double) sum / scores.length;
 
+        System.out.println("Total sales: " + sum);
+        System.out.println("Average daily: " + average + " kr");
+        System.out.println("Best day is day " + bestday + " the sale was " + max + " kr");
+        System.out.println("Days above 1500kr: " + count);
+        */
         // Opgave27
         /*
         double[] prices = {299.0,149.0,899.0,49.0};
@@ -576,8 +598,18 @@ public class Main {
         System.out.println("Longest name: " + longest);
         */
         // Opgave29
+        /*
+        int [] stock = {45,12,67,8,34,5,89};
+        int reoderThreshold = 10;
+        int reorderCount = 0;
 
-
+        for (int stocks : stock){
+            if (stocks <= reoderThreshold){
+                reorderCount++;
+            }
+        }
+        System.out.println("Products needing reorder: " + reorderCount);
+        */
     }
 }
 
