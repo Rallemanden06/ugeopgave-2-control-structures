@@ -59,7 +59,7 @@ public class Main {
         } else if (score >= 70) {
             grade = 'C';
             comment = "Satisfactory";
-        } else if (score >= 70) {
+        } else if (score >= 60) {
             grade = 'D';
             comment = "Needs improvement";
         } else {
