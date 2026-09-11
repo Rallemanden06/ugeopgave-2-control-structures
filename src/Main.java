@@ -438,13 +438,19 @@ public class Main {
         */
         // Opgave20
         /*
-        int saving = 0;
+        double monthlySavings = 1000.0;
+        double total = 0.0;
 
-        for (int i = 0; i < 12; i++){
-            saving += 1000;
+        System.out.println("Month | Total Savings");
+        System.out.println("------|---------------");
+
+        for (int month = 1; month <= 12; month++) {
+            total += monthlySavings;
+            System.out.println(month + "     | " + total + " kr");
         }
 
-        System.out.println("Savings after 12 months: " + saving + "kr");
+        System.out.println();
+        System.out.println("Total after 1 year: " + total + " kr");
         */
         // Opgave21
         /*
@@ -485,7 +491,7 @@ public class Main {
         } else {
             System.out.println(number + " is not prime");
         }
-        */
+         */
         // Opgave24
         /*
         int[] scores = {85,92,78,88,95,73,90};
